@@ -5,7 +5,7 @@
 -- F2 = F1 + F0
 -- The previous a becomes the b for the next recursion call, the previous a+b becomes the a for the next recursion call
 
-fib :: Int -> Int
+fib :: Int -> Integer
 fib n =
      let rec n a b =
           if n == 0 then
