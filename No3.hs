@@ -1,7 +1,7 @@
 -- Tail-Recursive Factorial using recursion
 -- 10! = 10 * 9 * 8 * ... * 2 * 1
 
-fact :: Int -> Int
+fact :: Int -> Integer
 fact n =
      let fact n acc =
           if n == 0 then
